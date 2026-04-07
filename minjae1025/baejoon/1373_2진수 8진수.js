@@ -15,7 +15,6 @@ const toOctal = (num) => {
             decimal += Number(digit3[i]) * Math.pow(2, digit3.length - 1 - i);
         }
         octal = decimal + octal;
-        console.log(`digit3: ${digit3}, decimal: ${decimal}, octal: ${octal}`);
     }
 
     return octal;
